@@ -79,7 +79,7 @@ def fscore_function(pos):
         precision = float(tp/float(tp+fp))
         print('P : ' + str(precision))
     else:
-        print('precission cannot be calculated, tp+fp = 0')
+        print('precision cannot be calculated, tp+fp = 0')
 
     if tp+fn != 0:
         recall = float(tp/float(tp+fn))
