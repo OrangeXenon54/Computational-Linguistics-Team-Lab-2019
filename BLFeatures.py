@@ -32,87 +32,87 @@ def FeatureChecker(token) :
         else:
             features.append(0.)
         #eIED
-        if re.search('\S+ied', word) :
+        if re.search('\S+ied', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eS
-        if re.search('\S+s$', word) :
+        if re.search('\S+s$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eES
-        if re.search('\S+es$', word) :
+        if re.search('\S+es$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eIES
-        if re.search('\S+ies$', word) :
+        if re.search('\S+ies$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eLY
-        if re.search('\S+ly$', word) :
+        if re.search('\S+ly$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eING
-        if re.search('\S+ing$', word) :
+        if re.search('\S+ing$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eINGS
-        if re.search('\S+ings$', word):
+        if re.search('\S+ings$', token):
             features.append(1.)
         else :
             features.append(0.)
         #bUN
-        if re.search('^[Uu]n\S+', word) :
+        if re.search('^[Uu]n\S+', token) :
             features.append(1.)
         else :
             features.append(0.)
         #bNON
-        if re.search('(^[Nn]on)\S+', word) :
+        if re.search('(^[Nn]on)\S+', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eFUL
-        if re.search('\S+ful$', word) :
+        if re.search('\S+ful$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eER
-        if re.search('\S+er$', word) :
+        if re.search('\S+er$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eIER
-        if re.search('\S+ier$', word) :
+        if re.search('\S+ier$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eEST
-        if re.search('\S+est$', word) :
+        if re.search('\S+est$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #eIEST
-        if re.search('\S+iest$', word) :
+        if re.search('\S+iest$', token) :
             features.append(1.)
         else :
             features.append(0.)
         #bCAP
-        if re.search('^[A-Z]\S+', word) :
+        if re.search('^[A-Z]\S+', token) :
             features.append(1.)
         else :
             features.append(0.)
         #iNUM
-        if re.search('^[0-9]+', word) :
+        if re.search('^[0-9]+', token) :
             features.append(1.)
         else :
             features.append(0.)
         #bAPOS
-        if re.search('^\'\S+', word) :
+        if re.search('^\'\S+', token) :
             features.append(1.)
         else :
             features.append(0.)
