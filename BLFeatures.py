@@ -152,6 +152,22 @@ def FeatureChecker(token) :
             features.append(1.)
         else :
             features.append(0.)
+        if re.search('\S+sion$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+sions$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ment$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ments$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
     return features
 
 filename = input("Please type file name:")
@@ -197,6 +213,10 @@ for item in toksANDfeats :
 26.) eNESSES: ends in "nesses"
 27.) eSHIP: ends in "ship"
 28.) eSHIPS: ends in "ships"
+20.) eSION: ends in "sion"
+21.) eSIONS: ends in "sions"
+22.) eMENT: ends in "ment"
+23.) eMENTS: ends in "ments"
 e = ends with
 b = begins with
 i = is
