@@ -213,10 +213,10 @@ for item in toksANDfeats :
 26.) eNESSES: ends in "nesses"
 27.) eSHIP: ends in "ship"
 28.) eSHIPS: ends in "ships"
-20.) eSION: ends in "sion"
-21.) eSIONS: ends in "sions"
-22.) eMENT: ends in "ment"
-23.) eMENTS: ends in "ments"
+29.) eSION: ends in "sion"
+30.) eSIONS: ends in "sions"
+31.) eMENT: ends in "ment"
+32.) eMENTS: ends in "ments"
 e = ends with
 b = begins with
 i = is
