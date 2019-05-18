@@ -116,6 +116,42 @@ def FeatureChecker(token) :
             features.append(1.)
         else :
             features.append(0.)
+        if len(token) > 7 :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ion$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ions$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+tion$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+tions$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ness$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+nesses$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ship$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
+        if re.search('\S+ships$', token) :
+            features.append(1.)
+        else :
+            features.append(0.)
     return features
 
 filename = input("Please type file name:")
@@ -152,6 +188,15 @@ for item in toksANDfeats :
 17.) bCAP: the word begins with a capital letter and is not the first word in the sentence
 18.) iNUM: The word contains a numeric character
 19.) bAPOS: The word starts with an apostrophe
+20.) iG7: is greater than 7 letters
+21.) eION: ends in "ion"
+22.) eIONS: ends in "ions"
+23.) eTION: ends in "tion"
+24.) eTIONS: ends in "tions"
+25.) eNESS: ends in "ness"
+26.) eNESSES: ends in "nesses"
+27.) eSHIP: ends in "ship"
+28.) eSHIPS: ends in "ships"
 e = ends with
 b = begins with
 i = is
