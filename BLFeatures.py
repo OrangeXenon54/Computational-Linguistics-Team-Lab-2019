@@ -116,54 +116,67 @@ def FeatureChecker(token) :
             features.append(1.)
         else :
             features.append(0.)
+        #iG7
         if len(token) > 7 :
             features.append(1.)
         else :
             features.append(0.)
+        #eION
         if re.search('\S+ion$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eIONS
         if re.search('\S+ions$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eTION
         if re.search('\S+tion$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eTIONS
         if re.search('\S+tions$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eNESS
         if re.search('\S+ness$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eNESSES
         if re.search('\S+nesses$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eSHIP
         if re.search('\S+ship$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eSHIPS
         if re.search('\S+ships$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eSION
         if re.search('\S+sion$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eSIONS
         if re.search('\S+sions$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eMENT
         if re.search('\S+ment$', token) :
             features.append(1.)
         else :
             features.append(0.)
+        #eMENTS
         if re.search('\S+ments$', token) :
             features.append(1.)
         else :
@@ -213,10 +226,10 @@ for item in toksANDfeats :
 26.) eNESSES: ends in "nesses"
 27.) eSHIP: ends in "ship"
 28.) eSHIPS: ends in "ships"
-29.) eSION: ends in "sion"
-30.) eSIONS: ends in "sions"
-31.) eMENT: ends in "ment"
-32.) eMENTS: ends in "ments"
+30.) eSION: ends in "sion"
+31.) eSIONS: ends in "sions"
+32.) eMENT: ends in "ment"
+33.) eMENTS: ends in "ments"
 e = ends with
 b = begins with
 i = is
