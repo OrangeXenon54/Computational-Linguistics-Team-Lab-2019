@@ -52,7 +52,9 @@ To generate the evaluation of the model (Micro and Macro average precision, Reca
               
 Use ConfusionMatrics.py to generate the confusion matrics.
 
-<img>
-              
+<p align="center">
+  <img src="/Figure_1.png" width="350" title="hover text">
+</p>
+       
               
           
