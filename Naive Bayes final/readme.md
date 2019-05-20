@@ -29,7 +29,7 @@ You can find a already trained model here.
 Model: <https://drive.google.com/file/d/17CME_l62KJk7yGEUN1f-7dT6OcXenp65/view>
 Tag Count: <https://drive.google.com/file/d/1l-50K-6mxGqohJwocdmutHF2kNXZKZP8/view>
 
-### Generate prediction usiong model
+### Generate prediction using model
 
 Once the training has been done, use ClassifierTest.py to test the model. Change the paths into appropriate directory.
 
