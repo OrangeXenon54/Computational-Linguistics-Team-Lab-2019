@@ -53,7 +53,7 @@ To generate the evaluation of the model (Micro and Macro average precision, Reca
 Use ConfusionMatrics.py to generate the confusion matrics.
 
 <p align="center">
-  <img src="/Figure_1.png" width="350" title="hover text">
+  <img src="https://github.com/OrangeXenon54/Group-13-Computational-Linguistics-Team-Lab-2019/blob/master/Naive%20Bayes%20final/Figure_1.png" width="350" title="hover text">
 </p>
        
               
