@@ -1,0 +1,70 @@
+Please input CV set you want to use: 9
+Number of Tagged Sentences  27054
+Total Number of Tagged words 657670
+Vocabulary of the Corpus 34137
+Number of Tags in the Corpus  48
+Number of Sentences in Training Data  27054
+Number of Sentences in Testing Data  3006
+F1 score on Test Data
+C:\Users\Orang\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Orang\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\metrics\classification.py:1439: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+0.9674975393869468
+F score on Training Data
+C:\Users\Orang\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Orang\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\metrics\classification.py:1439: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+              precision    recall  f1-score   support
+
+           $      1.000     1.000     1.000       385
+          ''      1.000     0.998     0.999       482
+           ,      1.000     1.000     1.000      3754
+       -LRB-      1.000     1.000     1.000        80
+       -RRB-      1.000     1.000     1.000        81
+           .      1.000     1.000     1.000      2971
+           :      1.000     1.000     1.000       368
+         AFX      0.000     0.000     0.000         1
+          CC      0.993     0.994     0.993      1811
+          CD      0.986     0.997     0.991      2337
+          DT      0.997     0.996     0.996      6340
+          EX      1.000     1.000     1.000        67
+          FW      0.600     0.429     0.500         7
+        HYPH      0.999     0.997     0.998       765
+          IN      0.974     0.984     0.979      8270
+          JJ      0.934     0.901     0.917      4513
+         JJR      0.889     0.889     0.889       252
+         JJS      0.942     0.961     0.951       153
+          LS      0.000     0.000     0.000         0
+          MD      0.997     0.996     0.997       794
+          NN      0.973     0.963     0.968     11006
+         NNP      0.962     0.979     0.970      7453
+        NNPS      0.757     0.570     0.650       230
+         NNS      0.973     0.980     0.977      4572
+         PDT      0.759     0.710     0.733        31
+         POS      0.994     0.999     0.996       700
+         PRP      0.999     0.995     0.997      1195
+        PRP$      0.995     1.000     0.998       608
+          RB      0.920     0.892     0.906      2454
+         RBR      0.760     0.712     0.735       111
+         RBS      0.863     0.815     0.838        54
+          RP      0.686     0.787     0.733       178
+         SYM      0.895     0.944     0.919        18
+          TO      0.974     0.972     0.973      1082
+          UH      0.000     0.000     0.000         3
+          VB      0.962     0.940     0.951      2081
+         VBD      0.946     0.956     0.951      2265
+         VBG      0.905     0.949     0.926      1128
+         VBN      0.849     0.912     0.879      1632
+         VBP      0.921     0.927     0.924       891
+         VBZ      0.978     0.968     0.973      1641
+         WDT      0.983     0.903     0.941       380
+          WP      0.975     1.000     0.987       196
+         WP$      1.000     1.000     1.000         9
+         WRB      1.000     0.994     0.997       160
+          ``      1.000     1.000     1.000       498
+
+    accuracy                          0.968     74007
+   macro avg      0.877     0.870     0.872     74007
+weighted avg      0.968     0.968     0.967     74007

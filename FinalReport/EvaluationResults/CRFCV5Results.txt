@@ -1,0 +1,65 @@
+Please input CV set you want to use: 5
+Number of Tagged Sentences  27054
+Total Number of Tagged words 660374
+Vocabulary of the Corpus 34065
+Number of Tags in the Corpus  48
+Number of Sentences in Training Data  27054
+Number of Sentences in Testing Data  3006
+F1 score on Test Data
+C:\Users\Orang\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\metrics\classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+C:\Users\Orang\AppData\Local\Programs\Python\Python37-32\lib\site-packages\sklearn\metrics\classification.py:1439: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+0.9664322529838127
+F score on Training Data
+              precision    recall  f1-score   support
+
+           $      1.000     1.000     1.000       389
+          ''      0.998     0.998     0.998       498
+           ,      1.000     1.000     1.000      3405
+       -LRB-      1.000     1.000     1.000        83
+       -RRB-      1.000     1.000     1.000        86
+           .      1.000     1.000     1.000      3002
+           :      1.000     0.984     0.992       366
+          CC      0.993     0.989     0.991      1796
+          CD      0.994     0.994     0.994      2558
+          DT      0.993     0.995     0.994      6078
+          EX      0.985     1.000     0.992        66
+          FW      0.750     0.286     0.414        21
+        HYPH      0.991     0.997     0.994       787
+          IN      0.974     0.982     0.978      7870
+          JJ      0.941     0.916     0.928      4464
+         JJR      0.885     0.875     0.880       289
+         JJS      0.916     0.949     0.932       138
+          LS      1.000     0.933     0.966        15
+          MD      0.997     0.997     0.997       746
+          NN      0.969     0.965     0.967     10308
+         NNP      0.958     0.971     0.964      6622
+        NNPS      0.626     0.465     0.534       245
+         NNS      0.965     0.987     0.976      4694
+         PDT      0.938     0.769     0.845        39
+         POS      0.998     0.993     0.996       592
+         PRP      0.995     0.997     0.996      1189
+        PRP$      0.998     0.998     0.998       507
+          RB      0.929     0.915     0.922      2422
+         RBR      0.762     0.699     0.729       133
+         RBS      0.895     0.810     0.850        63
+          RP      0.841     0.695     0.761       243
+         SYM      0.920     0.958     0.939        24
+          TO      0.975     0.970     0.973      1044
+          UH      0.846     0.688     0.759        16
+          VB      0.957     0.944     0.950      2042
+         VBD      0.938     0.950     0.944      2088
+         VBG      0.903     0.950     0.926      1113
+         VBN      0.864     0.898     0.880      1506
+         VBP      0.938     0.914     0.926       991
+         VBZ      0.978     0.962     0.970      1638
+         WDT      0.945     0.958     0.952       287
+          WP      0.988     1.000     0.994       162
+         WP$      1.000     1.000     1.000         9
+         WRB      1.000     1.000     1.000       159
+          ``      1.000     1.000     1.000       510
+
+    accuracy                          0.967     71303
+   macro avg      0.945     0.919     0.929     71303
+weighted avg      0.966     0.967     0.966     71303
